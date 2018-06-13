@@ -18,9 +18,14 @@ plugins:
 
 ## Usage in page content
 
-Display document
+Display iframe
 ```
 [iframe src="http://flextype.org"]
+```
+
+Display iframe with parameters
+```
+[iframe src="http://flextype.org" width=800 height=600 class="class-name" frameborder="1"]
 ```
 
 ## Settings
