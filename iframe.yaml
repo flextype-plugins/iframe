@@ -1,0 +1,13 @@
+name: Iframe
+version: 1.0.0
+description: "Iframe plugin allows you to embed iframe into your page."
+author:
+  name: Sergey Romanenko
+  email: awilum@yandex.ru
+  url: http://flextype.org
+homepage: https://github.com/flextype-plugins/iframe
+bugs: https://github.com/flextype-plugins/iframe/issues
+license: MIT
+
+# Plugin settings
+enabled: true
