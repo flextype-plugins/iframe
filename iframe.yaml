@@ -1,5 +1,5 @@
 name: Iframe
-version: 1.0.0
+version: 1.0.1
 description: "Iframe plugin allows you to embed iframe into your page."
 author:
   name: Sergey Romanenko
@@ -8,6 +8,3 @@ author:
 homepage: https://github.com/flextype-plugins/iframe
 bugs: https://github.com/flextype-plugins/iframe/issues
 license: MIT
-
-# Plugin settings
-enabled: true
