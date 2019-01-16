@@ -20,7 +20,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 Event::addListener('onShortcodesInitialized', function () {
 
     // Shortcode: [iframe src="http://flextype.org"]
-    Content::shortcode()->addHandler('iframe', function(ShortcodeInterface $s) {
+    Entries::shortcode()->addHandler('iframe', function(ShortcodeInterface $s) {
         return Themes::view('iframe/views/templates/iframe')
                         ->assign('src', $s->getParameter('src'))
                         ->assign('class', ((null !== $s->getParameter('class')) ? $s->getParameter('class') : '' ))
